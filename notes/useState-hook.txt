@@ -1,0 +1,9 @@
+->  Ex: ClickCounter.js and ClickCounterTwo.js
+
+->  Note: if you want to update state based on previous value,
+
+    use-> setCount(prevState=>prevState+1)
+
+    NOT THIS ONE-> setCount(count+1) --> unsafe. 
+    
+    see ClickCounterTwo.js
