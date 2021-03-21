@@ -1,0 +1,6 @@
+->  Only call hooks at top level.
+
+    Don't call hooks inside loops, conditions and nested functions
+
+
+->  Only call hooks from React functions 
