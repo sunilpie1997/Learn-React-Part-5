@@ -1,6 +1,7 @@
 import './App.css';
 import ClickCounter from './components/clickCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import HookCounterFour from './components/HookCounterFour';
 import HookCounterThree from './components/HookCounterThree';
 
 
@@ -19,8 +20,12 @@ function App() {
     </div>
     */
 
-    /* useState hook with objects */
+    /* useState hook with objects
     <HookCounterThree/>
+    */
+
+    /* useState hook with array */
+    <HookCounterFour/>
     );
 }
 

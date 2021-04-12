@@ -1,0 +1,5 @@
+using UseState hook with array
+
+    ->  ex: HookCounterFour.js
+
+    ->  first spread state variable and then call setter function
