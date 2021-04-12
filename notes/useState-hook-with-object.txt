@@ -1,0 +1,19 @@
+using UseState hook with object
+
+    ->  ex: HookCounterThree.js
+
+    ->  NOTE: the setter function provided by useState hook works differently when
+        compared to setState function.
+
+        The former does not automatically merge and update object
+
+        ex: const [name,setName]=useState({firstName:"",lastName:""})
+
+            setName({firstName:"sunil"})
+
+            On executing above code:
+
+            expectation --->    name={firstName:"sunil",lastName=""}
+
+            reality ---->   name={firstName="sunil"} --->   'lastName' property is removed from 'name' object
+
