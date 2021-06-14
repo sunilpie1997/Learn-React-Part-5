@@ -1,0 +1,14 @@
+UseEffect with incorrect dependency
+
+-> There is some confusion regarding this title. It shows that to 
+
+    update state based on previous value, use setCount(prevState=>prevState+1).
+
+    Also if have added 'count' in dependency array, would that create 'interval' variable everytime
+
+    'count' changes?
+    
+
+->  IntervalClassCounter.js
+
+->  IntervalHookCounter.js

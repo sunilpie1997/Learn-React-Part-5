@@ -14,6 +14,9 @@ import ClickCounter from './components/clickCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HookCounterFour from './components/HookCounterFour';
 import HookCounterThree from './components/HookCounterThree';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
+
 
 
 function App() {
@@ -64,8 +67,15 @@ function App() {
 
     */
 
-    /* cleanup with useEffect */
+    /* cleanup with useEffect
     <MouseContainer/>
+    */
+
+    /* useEffect with incorrect dependency */
+    <>
+    <IntervalClassCounter/>
+    <IntervalHookCounter/>
+    </>
 )}
 
 export default App;
