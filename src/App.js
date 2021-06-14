@@ -17,7 +17,8 @@ import HookCounterThree from './components/HookCounterThree';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 
-
+import DataFetching1 from './components/DataFetching1';
+import DataFetching2 from './components/DataFetching2';
 
 function App() {
   return (
@@ -71,11 +72,16 @@ function App() {
     <MouseContainer/>
     */
 
-    /* useEffect with incorrect dependency */
+    /* useEffect with incorrect dependency
     <>
     <IntervalClassCounter/>
     <IntervalHookCounter/>
     </>
+    */
+
+    /* Data Fetching */
+    <DataFetching2/>
+
 )}
 
 export default App;

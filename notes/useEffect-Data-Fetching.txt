@@ -1,0 +1,5 @@
+Data Fetching
+
+->  DataFetching1.js (fetching posts at once)
+
+->  DataFetching2.js (fetch post by 'id' entered by user)
