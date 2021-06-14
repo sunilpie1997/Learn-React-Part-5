@@ -1,0 +1,16 @@
+useEffect hook - cleanup
+
+->  we should cancel subscriptions (for example - remove event listeners) whenenver they are not required
+
+    to prevent memory leak
+
+->  we can perform this using 'componentWillUnmount' in class components.
+
+->  ex: ClassMouse.js
+
+
+->  suppose you want to mimic 'componentWillUnmount' in functional components,
+
+    we can add return statement to the function passed as parameter in UseEffect Hook to achieve this.
+
+->  ex: ClassMouse.js vs HookMouse.js

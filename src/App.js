@@ -55,12 +55,17 @@ function App() {
     </>
     */
 
-    /* run effect only once */
+    /* run effect only once
     <>
 
     <ClassMouse/>
     <HookMouse/>
     </>
+
+    */
+
+    /* cleanup with useEffect */
+    <MouseContainer/>
 )}
 
 export default App;
