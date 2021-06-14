@@ -5,6 +5,11 @@ import HookCounterOne from './components/HookCounterOne';
 import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCounterTwo from './components/HookCounterTwo';
 
+import ClassMouse from './components/ClassMouse';
+import HookMouse from './components/HookMouse';
+
+import MouseContainer from './components/MouseContainer';
+
 import ClickCounter from './components/clickCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HookCounterFour from './components/HookCounterFour';
@@ -43,10 +48,18 @@ function App() {
 
     */
 
-    /* optimise useEffect hook */
+    /* optimise useEffect hook
     <>
     <ClassCounterTwo/>
     <HookCounterTwo/>
+    </>
+    */
+
+    /* run effect only once */
+    <>
+
+    <ClassMouse/>
+    <HookMouse/>
     </>
 )}
 

@@ -1,0 +1,9 @@
+UseEffect Hook -> run effect only once
+
+->  suppose we want to mimic only the 'componentDidMount' method in functional component,
+
+    which get's executed only only once, we can do that by using useEffect Hook by
+    
+    passing empty dependence array as second parameter
+
+    ex: ClassMouse.js vs HookMouse.js
