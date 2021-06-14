@@ -1,0 +1,23 @@
+useEffect Hook
+
+->  let's you perform side effects in functional components
+
+->  it's a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount (only used in class component)
+
+->  ClassCounterOne.js vs HookCounterOne.js
+
+
+->  Suppose we have another state variable 'name' in addition to 'count'.
+   
+    And we want to change document title only if 'count' changes.
+    
+    The problem in above scenario is it is not optimized. It set's document title
+
+    even if we change 'name' in our state.
+
+    So TO CONDITIONALLY CAUSE SIDE EFFECTS SO AS TO OPTIMIZE PERFORMANCE, WE HAVE
+
+    TO PASS AN ARRAY WITH PROPS AND STATE BASED ON WHICH SIDE EFFECTS SHOULD TAKE PLACE
+
+    EX: ClassCounterTwo.js vs HookCounterTwo.js
+

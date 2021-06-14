@@ -1,4 +1,10 @@
 import './App.css';
+import ClassCounterOne from './components/ClassCounterOne';
+import HookCounterOne from './components/HookCounterOne';
+
+import ClassCounterTwo from './components/ClassCounterTwo';
+import HookCounterTwo from './components/HookCounterTwo';
+
 import ClickCounter from './components/clickCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HookCounterFour from './components/HookCounterFour';
@@ -24,9 +30,24 @@ function App() {
     <HookCounterThree/>
     */
 
-    /* useState hook with array */
+    /* useState hook with array 
     <HookCounterFour/>
+    */
+
+    /* usEffect hook 
+    <>
+    <ClassCounterOne/>
+    <HookCounterOne/>
+    </>
     );
-}
+
+    */
+
+    /* optimise useEffect hook */
+    <>
+    <ClassCounterTwo/>
+    <HookCounterTwo/>
+    </>
+)}
 
 export default App;
